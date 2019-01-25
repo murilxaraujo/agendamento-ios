@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3717C586B769D1748E5FF2F2 /* Pods_MaryLimpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A40BAECEDB67FEE062D860 /* Pods_MaryLimpUITests.framework */; };
+		4B50406321C11B20004DEAAC /* AdicionaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50406221C11B20004DEAAC /* AdicionaisViewController.swift */; };
+		4B67DF4421BAE49800E8BBD0 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B67DF4321BAE49800E8BBD0 /* IconTransitions.json */; };
+		4B8C796421B69EA80033D3E4 /* PFSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C796321B69EA80033D3E4 /* PFSettingsViewController.swift */; };
+		4B8C796821B6A1C50033D3E4 /* PJSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C796721B6A1C50033D3E4 /* PJSettingsViewController.swift */; };
+		4B8C796A21B6A1F10033D3E4 /* UserMODEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C796921B6A1F10033D3E4 /* UserMODEL.swift */; };
+		4B8C796D21B6A74C0033D3E4 /* NewAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C796C21B6A74C0033D3E4 /* NewAddressViewController.swift */; };
+		4B8C796F21B6A75C0033D3E4 /* NewVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C796E21B6A75C0033D3E4 /* NewVisitViewController.swift */; };
+		4B8C797221B704E60033D3E4 /* building_evolution_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B8C797121B704E60033D3E4 /* building_evolution_animation.json */; };
 		62327E62219F238100DEB7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62327E61219F238100DEB7FF /* AppDelegate.swift */; };
-		62327E64219F238100DEB7FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62327E63219F238100DEB7FF /* ViewController.swift */; };
-		62327E67219F238100DEB7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62327E65219F238100DEB7FF /* Main.storyboard */; };
 		62327E69219F238300DEB7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62327E68219F238300DEB7FF /* Assets.xcassets */; };
 		62327E6C219F238300DEB7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62327E6A219F238300DEB7FF /* LaunchScreen.storyboard */; };
 		62327E77219F238300DEB7FF /* MaryLimpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62327E76219F238300DEB7FF /* MaryLimpTests.swift */; };
 		62327E82219F238300DEB7FF /* MaryLimpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62327E81219F238300DEB7FF /* MaryLimpUITests.swift */; };
+		62327E91219F39B400DEB7FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62327E90219F39B400DEB7FF /* HomeViewController.swift */; };
+		6255C2F121A6ED07002A634F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255C2F021A6ED07002A634F /* LoginViewController.swift */; };
+		627BE6B021AD8AA6006D5415 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BE6AF21AD8AA6006D5415 /* ResetPasswordViewController.swift */; };
+		627EEA7121B160E200851191 /* SignupTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627EEA7021B160E200851191 /* SignupTabViewController.swift */; };
+		627EEA7421B1628900851191 /* SignUpPFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627EEA7321B1628900851191 /* SignUpPFViewController.swift */; };
+		627EEA7621B162A000851191 /* SignUpPJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627EEA7521B162A000851191 /* SignUpPJViewController.swift */; };
+		62B8DDDB21A3212A00902144 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62B8DDDA21A3212900902144 /* GoogleService-Info.plist */; };
+		62C0E40F21AF26F9004E02A0 /* MODEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C0E40E21AF26F9004E02A0 /* MODEL.swift */; };
+		63E5A13C7ED7C2D3FAC58F23 /* Pods_MaryLimp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B37EF3543816203B4E8FE /* Pods_MaryLimp.framework */; };
+		F045AA9BDEEE9322C36685D5 /* Pods_MaryLimpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D76FE46A84F43437B270F07 /* Pods_MaryLimpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A40BAECEDB67FEE062D860 /* Pods_MaryLimpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaryLimpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2EDECA94ED72D601EEB599 /* Pods-MaryLimpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimpTests/Pods-MaryLimpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B50406221C11B20004DEAAC /* AdicionaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionaisViewController.swift; sourceTree = "<group>"; };
+		4B67DF4321BAE49800E8BBD0 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		4B8C796321B69EA80033D3E4 /* PFSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFSettingsViewController.swift; sourceTree = "<group>"; };
+		4B8C796721B6A1C50033D3E4 /* PJSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PJSettingsViewController.swift; sourceTree = "<group>"; };
+		4B8C796921B6A1F10033D3E4 /* UserMODEL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMODEL.swift; sourceTree = "<group>"; };
+		4B8C796C21B6A74C0033D3E4 /* NewAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressViewController.swift; sourceTree = "<group>"; };
+		4B8C796E21B6A75C0033D3E4 /* NewVisitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVisitViewController.swift; sourceTree = "<group>"; };
+		4B8C797121B704E60033D3E4 /* building_evolution_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = building_evolution_animation.json; sourceTree = "<group>"; };
 		62327E5E219F238000DEB7FF /* MaryLimp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaryLimp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62327E61219F238100DEB7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62327E63219F238100DEB7FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62327E66219F238100DEB7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62327E68219F238300DEB7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62327E6B219F238300DEB7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62327E6D219F238300DEB7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		62327E7D219F238300DEB7FF /* MaryLimpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaryLimpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62327E81219F238300DEB7FF /* MaryLimpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaryLimpUITests.swift; sourceTree = "<group>"; };
 		62327E83219F238300DEB7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62327E90219F39B400DEB7FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6255C2F021A6ED07002A634F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		627BE6AF21AD8AA6006D5415 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		627EEA7021B160E200851191 /* SignupTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTabViewController.swift; sourceTree = "<group>"; };
+		627EEA7321B1628900851191 /* SignUpPFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPFViewController.swift; sourceTree = "<group>"; };
+		627EEA7521B162A000851191 /* SignUpPJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPJViewController.swift; sourceTree = "<group>"; };
+		62B8DDDA21A3212900902144 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62C0E40E21AF26F9004E02A0 /* MODEL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODEL.swift; sourceTree = "<group>"; };
+		690EE52F4A374516F4DD83A0 /* Pods-MaryLimpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimpUITests/Pods-MaryLimpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EA42BD1F9A19B9042CCD4D0 /* Pods-MaryLimpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimpUITests/Pods-MaryLimpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		724DEDC5EF39044DCE56CC9C /* Pods-MaryLimp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp.debug.xcconfig"; sourceTree = "<group>"; };
+		830D9BA929ECB5F46F742149 /* Pods-MaryLimpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimpTests/Pods-MaryLimpTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D76FE46A84F43437B270F07 /* Pods_MaryLimpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaryLimpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4B37EF3543816203B4E8FE /* Pods_MaryLimp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaryLimp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EE015ADABCF0C9AF10A55F /* Pods-MaryLimp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaryLimp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E5A13C7ED7C2D3FAC58F23 /* Pods_MaryLimp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F045AA9BDEEE9322C36685D5 /* Pods_MaryLimpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +110,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3717C586B769D1748E5FF2F2 /* Pods_MaryLimpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305A7FBA604102DEA5C07728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B37EF3543816203B4E8FE /* Pods_MaryLimp.framework */,
+				8D76FE46A84F43437B270F07 /* Pods_MaryLimpTests.framework */,
+				13A40BAECEDB67FEE062D860 /* Pods_MaryLimpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31B6A2FF5E05BB8056B545E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724DEDC5EF39044DCE56CC9C /* Pods-MaryLimp.debug.xcconfig */,
+				D7EE015ADABCF0C9AF10A55F /* Pods-MaryLimp.release.xcconfig */,
+				1E2EDECA94ED72D601EEB599 /* Pods-MaryLimpTests.debug.xcconfig */,
+				830D9BA929ECB5F46F742149 /* Pods-MaryLimpTests.release.xcconfig */,
+				6EA42BD1F9A19B9042CCD4D0 /* Pods-MaryLimpUITests.debug.xcconfig */,
+				690EE52F4A374516F4DD83A0 /* Pods-MaryLimpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B8C796B21B6A6FD0033D3E4 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C796321B69EA80033D3E4 /* PFSettingsViewController.swift */,
+				4B8C796721B6A1C50033D3E4 /* PJSettingsViewController.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		4B8C797021B704590033D3E4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C797121B704E60033D3E4 /* building_evolution_animation.json */,
+				4B67DF4321BAE49800E8BBD0 /* IconTransitions.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		62327E55219F238000DEB7FF = {
 			isa = PBXGroup;
 			children = (
+				4B8C797021B704590033D3E4 /* Animations */,
+				6255C2EF21A6ECE5002A634F /* MODEL */,
+				6255C2EE21A6ECD2002A634F /* VCs */,
 				62327E60219F238000DEB7FF /* MaryLimp */,
 				62327E75219F238300DEB7FF /* MaryLimpTests */,
 				62327E80219F238300DEB7FF /* MaryLimpUITests */,
 				62327E5F219F238000DEB7FF /* Products */,
+				31B6A2FF5E05BB8056B545E0 /* Pods */,
+				305A7FBA604102DEA5C07728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +186,8 @@
 		62327E60219F238000DEB7FF /* MaryLimp */ = {
 			isa = PBXGroup;
 			children = (
+				62B8DDDA21A3212900902144 /* GoogleService-Info.plist */,
 				62327E61219F238100DEB7FF /* AppDelegate.swift */,
-				62327E63219F238100DEB7FF /* ViewController.swift */,
-				62327E65219F238100DEB7FF /* Main.storyboard */,
 				62327E68219F238300DEB7FF /* Assets.xcassets */,
 				62327E6A219F238300DEB7FF /* LaunchScreen.storyboard */,
 				62327E6D219F238300DEB7FF /* Info.plist */,
@@ -125,6 +213,40 @@
 			path = MaryLimpUITests;
 			sourceTree = "<group>";
 		};
+		6255C2EE21A6ECD2002A634F /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C796B21B6A6FD0033D3E4 /* settings */,
+				627EEA7221B1626400851191 /* Signup */,
+				62327E90219F39B400DEB7FF /* HomeViewController.swift */,
+				6255C2F021A6ED07002A634F /* LoginViewController.swift */,
+				627BE6AF21AD8AA6006D5415 /* ResetPasswordViewController.swift */,
+				4B8C796C21B6A74C0033D3E4 /* NewAddressViewController.swift */,
+				4B8C796E21B6A75C0033D3E4 /* NewVisitViewController.swift */,
+				4B50406221C11B20004DEAAC /* AdicionaisViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		6255C2EF21A6ECE5002A634F /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				62C0E40E21AF26F9004E02A0 /* MODEL.swift */,
+				4B8C796921B6A1F10033D3E4 /* UserMODEL.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		627EEA7221B1626400851191 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				627EEA7021B160E200851191 /* SignupTabViewController.swift */,
+				627EEA7321B1628900851191 /* SignUpPFViewController.swift */,
+				627EEA7521B162A000851191 /* SignUpPJViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62327E86219F238300DEB7FF /* Build configuration list for PBXNativeTarget "MaryLimp" */;
 			buildPhases = (
+				B7989F4521A7368890B55710 /* [CP] Check Pods Manifest.lock */,
 				62327E5A219F238000DEB7FF /* Sources */,
 				62327E5B219F238000DEB7FF /* Frameworks */,
 				62327E5C219F238000DEB7FF /* Resources */,
+				92B68C58DE53D69B1B3E9E50 /* [CP] Embed Pods Frameworks */,
+				1606DC11C53943F8D204679F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62327E89219F238300DEB7FF /* Build configuration list for PBXNativeTarget "MaryLimpTests" */;
 			buildPhases = (
+				DDF1F64A126C0DE73480D844 /* [CP] Check Pods Manifest.lock */,
 				62327E6E219F238300DEB7FF /* Sources */,
 				62327E6F219F238300DEB7FF /* Frameworks */,
 				62327E70219F238300DEB7FF /* Resources */,
@@ -167,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62327E8C219F238300DEB7FF /* Build configuration list for PBXNativeTarget "MaryLimpUITests" */;
 			buildPhases = (
+				027E3D89CD4431399A7AA044 /* [CP] Check Pods Manifest.lock */,
 				62327E79219F238300DEB7FF /* Sources */,
 				62327E7A219F238300DEB7FF /* Frameworks */,
 				62327E7B219F238300DEB7FF /* Resources */,
@@ -230,8 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62327E6C219F238300DEB7FF /* LaunchScreen.storyboard in Resources */,
+				4B67DF4421BAE49800E8BBD0 /* IconTransitions.json in Resources */,
+				62B8DDDB21A3212A00902144 /* GoogleService-Info.plist in Resources */,
+				4B8C797221B704E60033D3E4 /* building_evolution_animation.json in Resources */,
 				62327E69219F238300DEB7FF /* Assets.xcassets in Resources */,
-				62327E67219F238100DEB7FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +380,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		027E3D89CD4431399A7AA044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaryLimpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1606DC11C53943F8D204679F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B68C58DE53D69B1B3E9E50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialSwitch/JTMaterialSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MLUI/MLUI.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MercadoPagoSDK/MercadoPagoSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/WWCalendarTimeSelector/WWCalendarTimeSelector.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MercadoPagoSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WWCalendarTimeSelector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaryLimp/Pods-MaryLimp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7989F4521A7368890B55710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaryLimp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF1F64A126C0DE73480D844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaryLimpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62327E5A219F238000DEB7FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62327E64219F238100DEB7FF /* ViewController.swift in Sources */,
+				4B50406321C11B20004DEAAC /* AdicionaisViewController.swift in Sources */,
+				627EEA7621B162A000851191 /* SignUpPJViewController.swift in Sources */,
+				4B8C796421B69EA80033D3E4 /* PFSettingsViewController.swift in Sources */,
+				4B8C796A21B6A1F10033D3E4 /* UserMODEL.swift in Sources */,
+				6255C2F121A6ED07002A634F /* LoginViewController.swift in Sources */,
 				62327E62219F238100DEB7FF /* AppDelegate.swift in Sources */,
+				62327E91219F39B400DEB7FF /* HomeViewController.swift in Sources */,
+				62C0E40F21AF26F9004E02A0 /* MODEL.swift in Sources */,
+				627EEA7121B160E200851191 /* SignupTabViewController.swift in Sources */,
+				627BE6B021AD8AA6006D5415 /* ResetPasswordViewController.swift in Sources */,
+				4B8C796F21B6A75C0033D3E4 /* NewVisitViewController.swift in Sources */,
+				627EEA7421B1628900851191 /* SignUpPFViewController.swift in Sources */,
+				4B8C796821B6A1C50033D3E4 /* PJSettingsViewController.swift in Sources */,
+				4B8C796D21B6A74C0033D3E4 /* NewAddressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +571,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		62327E65219F238100DEB7FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62327E66219F238100DEB7FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62327E6A219F238300DEB7FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,16 +700,18 @@
 		};
 		62327E87219F238300DEB7FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724DEDC5EF39044DCE56CC9C /* Pods-MaryLimp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48D27XH7QZ;
+				DEVELOPMENT_TEAM = V6968M2U2P;
 				INFOPLIST_FILE = MaryLimp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mribeiro.MaryLimp;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mribeiro.marylimp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +720,18 @@
 		};
 		62327E88219F238300DEB7FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EE015ADABCF0C9AF10A55F /* Pods-MaryLimp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48D27XH7QZ;
+				DEVELOPMENT_TEAM = V6968M2U2P;
 				INFOPLIST_FILE = MaryLimp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mribeiro.MaryLimp;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mribeiro.marylimp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +740,7 @@
 		};
 		62327E8A219F238300DEB7FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2EDECA94ED72D601EEB599 /* Pods-MaryLimpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +762,7 @@
 		};
 		62327E8B219F238300DEB7FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830D9BA929ECB5F46F742149 /* Pods-MaryLimpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +784,7 @@
 		};
 		62327E8D219F238300DEB7FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA42BD1F9A19B9042CCD4D0 /* Pods-MaryLimpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +805,7 @@
 		};
 		62327E8E219F238300DEB7FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690EE52F4A374516F4DD83A0 /* Pods-MaryLimpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
