@@ -1,0 +1,6 @@
+framework module Pods_MaryLimpTests {
+  umbrella header "Pods-MaryLimpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -267,11 +267,13 @@ class NewAddressViewController: UIViewController, UIScrollViewDelegate {
         
         //FirstViewsetup
         
-        let animation: LOTAnimationView = {
-            let lot = LOTAnimationView(name: "building_evolution_animation")
-            lot.translatesAutoresizingMaskIntoConstraints = false
-            lot.contentMode = .scaleAspectFit
-            return lot
+        let animation: AnimationView = {
+            let av = AnimationView()
+            let lot = Animation.named("building_evolution_animation")
+            av.translatesAutoresizingMaskIntoConstraints = false
+            av.contentMode = .scaleAspectFit
+            av.animation = lot
+            return av
         }()
         
         firstView.addSubview(animation)

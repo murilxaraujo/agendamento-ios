@@ -39,7 +39,6 @@ target 'MaryLimp' do
   pod 'IQKeyboardManagerSwift'
   pod 'JTMaterialSwitch'
   pod 'Alamofire', '~> 4.7'
-  pod 'WWCalendarTimeSelector'
   pod 'MercadoPagoSDK'
 
   target 'MaryLimpTests' do

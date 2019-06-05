@@ -9,7 +9,6 @@
 import UIKit
 import MaterialComponents
 import Firebase
-import WWCalendarTimeSelector
 import Lottie
 import MercadoPagoSDK
 import SafariServices
@@ -130,11 +129,13 @@ class NewVisitViewController: UIViewController, UIScrollViewDelegate, UICollecti
         
         //FirstViewsetup
         
-        let animation: LOTAnimationView = {
-            let lot = LOTAnimationView(name: "IconTransitions")
-            lot.translatesAutoresizingMaskIntoConstraints = false
-            lot.contentMode = .scaleAspectFit
-            return lot
+        let animation: AnimationView = {
+            let av = AnimationView()
+            let lot = Animation.named("IconTransitions")
+            av.translatesAutoresizingMaskIntoConstraints = false
+            av.contentMode = .scaleAspectFit
+            av.animation = lot
+            return av
         }()
         
         firstView.addSubview(animation)
@@ -517,6 +518,10 @@ class NewVisitViewController: UIViewController, UIScrollViewDelegate, UICollecti
     }
     
     func getdata() {
+        if Auth.auth().currentUser == nil {
+            return;
+        }
+        
         Firestore.firestore().collection("users").document(Auth.auth().currentUser!.uid).collection("enderecos").addSnapshotListener({ (snapshot, error) in
             
             if error != nil {
