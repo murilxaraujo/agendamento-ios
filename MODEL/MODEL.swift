@@ -54,8 +54,9 @@ class Addressess {
     var addrtype: Int
     var sqrm: Double
     var detalhes: String?
+    var uid: String!
     
-    init(cep: String, logradouro: String, number: String?, bairro: String, cidade: String, estado: String, comp: String?, pref: String?, addrtype: Int, sqrm: Double, detalhes: String?) {
+    init(cep: String, logradouro: String, number: String?, bairro: String, cidade: String, estado: String, comp: String?, pref: String?, addrtype: Int, sqrm: Double, detalhes: String?, uid: String) {
         self.cep = cep
         self.logradouro = logradouro
         self.number = number
@@ -67,5 +68,6 @@ class Addressess {
         self.addrtype = addrtype
         self.sqrm = sqrm
         self.detalhes = detalhes
+        self.uid = uid
     }
 }

@@ -19,7 +19,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let cellb = "cellb"
     
     var arraya: [Visit] = [Visit(date: Date(), docID: "", worker: nil, address: "", rate: 0, comment: Comment(text: "", pics: nil), periodo: 1, price: 1, discount: nil, done: true, paymenttype: 0, payment: "")]
-    var arrayb: [Addressess] = [Addressess(cep: "", logradouro: "", number: nil, bairro: "", cidade: "", estado: "", comp: nil, pref: nil, addrtype: 0, sqrm: 0, detalhes: nil)]
+    var arrayb: [Addressess] = [Addressess(cep: "", logradouro: "", number: nil, bairro: "", cidade: "", estado: "", comp: nil, pref: nil, addrtype: 0, sqrm: 0, detalhes: nil, uid: "")]
     
     let actindicator: MDCActivityIndicator = {
         let it = MDCActivityIndicator()
@@ -212,7 +212,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
                                                       pref: nil,
                                                       addrtype: document.get("type") as! Int,
                                                       sqrm: 00,
-                                                      detalhes: nil)
+                                                      detalhes: nil,
+                                                      uid: document.documentID)
                                 self.arrayb.append(item)
                                 
                             }
@@ -297,9 +298,19 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             if indexPath.item == 0 {
                 self.navigationController?.pushViewController(NewAddressViewController(), animated: true)
             } else {
-                
+                deleteAddress(indexpath: indexPath.item)
             }
             
+        }
+    }
+    
+    func deleteAddress(indexpath: Int) {
+        let documentID: String = arrayb[indexpath].uid
+        
+        Firestore.firestore().collection("users").document(Auth.auth().currentUser!.uid).collection("enderecos").document(documentID).delete { (error) in
+            if error != nil {
+                //there was an error
+            }
         }
     }
     
