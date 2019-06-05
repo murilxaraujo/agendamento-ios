@@ -639,6 +639,14 @@ class addressessCollectionViewCellb: UICollectionViewCell {
         return label
     }()
     
+    let icon: UIImageView = {
+        let iv = UIImageView()
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.tintColor = .lightGray
+        iv.contentMode = .scaleAspectFit
+        return iv
+    }()
+    
     func setupCell(item: Addressess, index: Int) {
     
             addSubview(cellView)
@@ -655,6 +663,20 @@ class addressessCollectionViewCellb: UICollectionViewCell {
             addLabel.textAlignment = .center
             addLabel.text = item.logradouro
             addLabel.alpha = 1
+        
+            cellView.addSubview(icon)
+            icon.centerXAnchor.constraint(equalTo: cellView.centerXAnchor).isActive = true
+            icon.centerYAnchor.constraint(equalTo: cellView.centerYAnchor, constant: -15).isActive = true
+            icon.heightAnchor.constraint(equalToConstant: 50).isActive = true
+            icon.widthAnchor.constraint(equalToConstant: 50).isActive = true
+            icon.tintColor = UIColor.white
+            icon.alpha = 1
+        
+            if item.addrtype == 0 {
+            icon.image = UIImage(named: "round_home_black_36pt")
+            } else {
+            icon.image = UIImage(named: "round_work_black_36pt")
+            }
         
     }
     
