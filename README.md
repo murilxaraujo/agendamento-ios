@@ -24,3 +24,5 @@ Caso queira usar o backend firebase para testes, antes de programar seu próprio
 * Criar conta
 * Recuperar senha
 * Simular preço do serviço
+
+<img src="https://i.imgur.com/JXRY25x.png" width="100px">
